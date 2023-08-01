@@ -32,7 +32,7 @@ namespace ApiSample.Controllers
                 string json = r.ReadToEnd();
                 List<PayloadInfo> payload = JsonConvert.DeserializeObject<List<PayloadInfo>>(json);
                 string result = SaveData.Save(payload);
-                return json;
+                return result;
             }
         }
     }
