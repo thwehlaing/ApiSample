@@ -1,6 +1,5 @@
 ﻿using ApiSample.Model;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using NLog.Web;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
